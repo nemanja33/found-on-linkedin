@@ -2,6 +2,7 @@
 some guy posted on Linkedin what you need to learn for a React Job. It's behind a pay wall, so I thought to make it public
 
 The list
+
 𝗠𝗼𝘀𝘁 𝘁𝗲𝘀𝘁𝗲𝗱 𝗮𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗨𝗜 𝗯𝗲𝗵𝗮𝘃𝗶𝗼𝗿𝘀
  - Accordion
  - Modal
