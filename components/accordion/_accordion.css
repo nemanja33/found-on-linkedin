@@ -1,0 +1,46 @@
+.acc-item {
+  border: 1px solid var(--primary);
+  border-radius: 12px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  transition: 0.3s ease-in;
+  transition-property: border-color, box-shadow;
+}
+
+.acc-item:hover {
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 1px rgba(255, 106, 0, 0.2);
+}
+
+.acc-header {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.acc-icon {
+  color: var(--secondary);
+  font-size: 1.2rem;
+}
+
+.acc-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.acc-body > div {
+  overflow: hidden;
+}
+
+.acc-body[aria-hidden="false"] {
+  grid-template-rows: 1fr;
+}
+
+.acc-content {
+  padding: 0 1.2rem 1.2rem;
+}

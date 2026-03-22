@@ -42,3 +42,8 @@ The list
  - Memoization
  - Virtualization
  - CDN + asset optimization
+
+
+node: 22.20.0
+npm i
+npm run dev
