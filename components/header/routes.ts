@@ -15,6 +15,10 @@ const Routes: RouteType[] = [
   {
     url: "/02-Modal",
     name: "Modal"
+  },
+  {
+    url: "/03-Slider",
+    name: "Slider"
   }
 ]
 
